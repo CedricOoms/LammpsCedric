@@ -1,4 +1,4 @@
-v_strainx v_stressx v_strainy v_stressy
+strain_x stress_x strain_y stress_y
 0.0 -864.43283 0.0 -864.43285 
 0.0018135647 -850.07344 0.0018135648 -850.28022 
 0.0072076671 -806.10058 0.0072085412 -806.49841 
