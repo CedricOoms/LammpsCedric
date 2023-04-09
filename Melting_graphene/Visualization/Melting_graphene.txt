@@ -1,0 +1,9 @@
+DynamicBonds: cut-off distance = 1.8
+
+Timestamps are rough estimates (subjective):
+From around frame 20 500 bonds are rapidly momentarily broken and repaired 
+all over the graphene sheet.
+These occurences increase as temperature further increases, but the sheets
+remains intact.
+At approx frame 57 219 the top left corner of the sheet breaks off 
+(picture: 'break')
