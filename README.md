@@ -7,8 +7,7 @@ The used representation in VMD is VDW + DynamicBonds (cut-off distance = 1.8 and
 
 
 
-# Task
-Tasks
+# Tasks
 -----
 
 1. Use 'graphene.m' to create a small graphene sheet (only a single rectangular cell with 4 atoms is enough). Study briefly the format of the output file. You can read about the data format in the manual (see command 'read_data').
