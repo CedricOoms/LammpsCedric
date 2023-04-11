@@ -33,7 +33,7 @@ variable     fenergy equal 0.043        # Kcal/mole -> eV
 dimension    3
 boundary     p p f
 atom_style   charge
-read_data    graphene.dat
+read_data    graphene_N400.dat
 pair_style   reax/c NULL checkqeq no
 pair_coeff   * * ffield.reax C
 

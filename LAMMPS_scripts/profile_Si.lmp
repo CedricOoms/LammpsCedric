@@ -1,5 +1,5 @@
 ################################################################################
-# GRAPHENE: POTENTIAL PROFILE
+# SILICENE: POTENTIAL PROFILE
 ################################################################################
 #
 # Input script for lammps to calculate the potential energy in function of the
@@ -21,7 +21,7 @@
 units        real
 variable     fenergy equal 0.043 # Kcal/mole -> eV
 
-# GRAPHENE SHEET
+# SILICENE SHEET
 # The atom positions and the simulation box size will be read from a data file.
 # Reactive force fields (reaxFF) are used to describe the interaction between
 # the carbon atoms.(The pair_style reax is deprecated. so we use the modern
@@ -29,9 +29,10 @@ variable     fenergy equal 0.043 # Kcal/mole -> eV
 dimension    2
 boundary     p p p
 atom_style   charge
-read_data    graphene.dat
+read_data    silicene.dat
 pair_style   reax/c NULL checkqeq no
-pair_coeff   * * ffield.reax C
+pair_coeff   * * ffield.reax.CHONSSi.2 Si
+change_box all x scale 0.75 y scale 0.75 remap
 
 # OUTPUT
 # Calculate the average total energy per atom and the distance 'a' between
