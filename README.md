@@ -16,7 +16,6 @@ Silicene: sphere scale = 0.3, distance cut-off = 3.0 & bond radius = 0.1
 
 
 # Tasks
------
 
 1. Use 'graphene.m' to create a small graphene sheet (only a single rectangular cell with 4 atoms is enough). Study briefly the format of the output file. You can read about the data format in the manual (see command 'read_data').
 2. Study the input script 'profile.lmp'. Consult the manual if commands are not clear. Use this script to plot the energy in function of the distance between the carbon atoms. What is the interatomic distance for a relaxed graphene sheet? (Tip: start with an interatomic distance of 1A).
