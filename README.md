@@ -4,6 +4,8 @@ Repository containing the output from the given LAMMPS scripts and the relevant 
 Data extraction from the log files was done using the pizza.py package and visualization (using the dump files) was done using VMD.
 The used representation in VMD is VDW + DynamicBonds (cut-off distance = 1.8 and 3.0 for graphene and the Si sheet respectively). This allows us to visualize the breaking of bonds and thus tearing of the sheet or melting and so on.
 
+The LAMMPS_scripts directory contains the lammps scripts used to obtain the results discussed in the paper.
+
 
 
 
