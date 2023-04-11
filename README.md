@@ -6,6 +6,12 @@ The used representation in VMD is VDW + DynamicBonds (cut-off distance = 1.8 and
 
 The LAMMPS_scripts directory contains the lammps scripts used to obtain the results discussed in the paper.
 
+# VMD Settings
+
+Representation: VDW + DynamicBonds
+
+Graphene: sphere scale = 0.3, distance cut-off = 1.8 & bond radius = 0.1
+Silicene: sphere scale = 0.3, distance cut-off = 3.0 & bond radius = 0.1
 
 
 

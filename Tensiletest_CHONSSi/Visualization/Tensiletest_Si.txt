@@ -1,7 +1,0 @@
-DynamicBonds: cut-off distance = 3.0
-Init: frame 1
-Stretched1: frame 207
-Stretched2: frame 218
-Stretched3: frame 237
-Stretched4: frame 269
-Stretched5: frame 270
