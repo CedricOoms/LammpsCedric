@@ -53,7 +53,7 @@ variable     temp index 300
 variable     seed index 1717
 velocity     all create ${temp} ${seed} dist uniform
 fix          fnpt all npt temp ${temp} ${temp} 10 x 0 0 500 y 0 0 500
-thermo       1
+thermo       1 #Output thermodynamics every timestep 
 run          1000
 
 # MELTING
