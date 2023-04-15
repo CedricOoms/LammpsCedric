@@ -1,7 +1,0 @@
-Dynamic bonds: cut-off distance = 1.8
-Init: frame 1
-Stretched1: frame 171
-Stretched2: frame 214
-Stretched3: frame 219
-Stretched4: frame 330
-Stretched5: frame 421

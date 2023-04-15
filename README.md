@@ -4,7 +4,14 @@ Repository containing the output from the given LAMMPS scripts and the relevant 
 Data extraction from the log files was done using the pizza.py package and visualization (using the dump files) was done using VMD.
 The used representation in VMD is VDW + DynamicBonds (cut-off distance = 1.8 and 3.0 for graphene and the Si sheet respectively). This allows us to visualize the breaking of bonds and thus tearing of the sheet or melting and so on.
 
-The LAMMPS_scripts directory contains the lammps scripts used to obtain the results discussed in the paper.
+The LAMMPS_scripts directory contains the lammps scripts used as a starting point to obtain the results discussed in the paper.
+
+# Remarks on Lammps settings
+
+Real units were used, meaning the default time step is 1 fs. This was good enough for the potential profile and the stress-strain curves at 300 K.
+At higher temperatures however (as encountered in the melting simulations where temperature goes up to 5000 K and even for stretching at 500 K) led to 'atom lost errors'. 
+This issue resolved by using a smaller time step; here 0.1 fs was used. The same error still occurs for the melting of the silicene sheet (at 3797.1767 K). This can be ignored as melting as already occured by then (and is actually the cause of this error).
+Also, for the sake of consistency, the stress-strain curve at 300 K was recalculated with a timestep of 0.1 fs.
 
 # VMD Settings
 

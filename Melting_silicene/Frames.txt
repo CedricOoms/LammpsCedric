@@ -1,0 +1,15 @@
+Equilibriation for 1000 steps at 300 K before start of the heating process.
+Step is given w.r.t. the absolute beginning of the simulation, so including the 1000 equilibriation steps.
+Frames in VMD start at 0; so combining that with the information mentioned above, the conversion between frame number N_frame and step N_step in the log file is given by "N_step=(N_frame+1000)-1".
+
+Silicene_2000K.png:
+   Frame: 35 000 => Step: 35 999
+   Temp: 2000.6702 K
+
+Silicene_3000K.png:
+   Frame: 54 000 => Step: 54 999
+   Temp: 3073.7752 K
+
+Silicene_3500K.png:
+  Frame: 65 914 => Step: 66 913
+  Temp: 3500.6877 K
