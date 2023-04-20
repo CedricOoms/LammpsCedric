@@ -1,0 +1,36 @@
+
+
+*******************************************************************************
+Thu Apr 20 15:19:38 2023
+
+
+FIT:    data read from "LinPart.txt" u 2:3
+        format = x:z
+        #datapoints = 2132
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.5845110291e+07   0.00e+00  8.16e-01    1.000000e+00   1.000000e+00
+   3 5.6306275721e+04  -5.61e-03  8.16e-04    5.036134e+02  -2.101653e+02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 56306.3
+rel. change during last iteration : -5.61442e-08
+
+degrees of freedom    (FIT_NDF)                        : 2130
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 5.14149
+variance of residuals (reduced chisquare) = WSSR/ndf   : 26.4349
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 503.613          +/- 1.303        (0.2587%)
+b               = -210.165         +/- 0.749        (0.3564%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.989  1.000 
